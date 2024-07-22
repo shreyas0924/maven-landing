@@ -9,7 +9,7 @@ git clone https://github.com/shreyas0924/maven-landing.git
 2. Go into project
 
 ```bash
-cd shadcn-landing-page
+cd maven-landing
 ```
 
 3. Install dependencies
