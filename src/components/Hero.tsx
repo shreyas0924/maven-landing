@@ -2,7 +2,6 @@
 import { Button } from "./ui/button";
 import { useState } from "react";
 
-
 export const Hero = () => {
   const [copySuccess, setCopySuccess] = useState(false);
 
@@ -21,10 +20,10 @@ export const Hero = () => {
   };
 
   return (
-    <section className="relative w-2/5 mx-auto text-center py-20 md:py-32 gap-10">
+    <section className="relative md:w-2/5 w-4/5 mx-auto text-center py-20 md:py-32 gap-10">
       <div className="absolute inset-10 shadow bg-gray-200 mx-auto -z-10"></div>
       <div className="text-center lg:text-start space-y-6 relative z-10">
-        <main className="text-5xl md:text-6xl font-bold text-center">
+        <main className="text-3xl md:text-6xl font-bold text-center">
           <h1 className="inline">
             <span className="inline bg-gradient-to-r from-[#93e4a9]  to-[#4ca85c] text-transparent bg-clip-text">
               Maven Studio:

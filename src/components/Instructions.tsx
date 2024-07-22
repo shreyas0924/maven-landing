@@ -8,7 +8,7 @@ const CodeCard = ({ text }: { text: string }) => {
 
 export const Instructions = () => {
   return (
-    <main className="w-2/5 flex flex-col gap-3 mx-auto mb-20">
+    <main className="md:w-2/5 w-4/5 flex flex-col gap-3 mx-auto mb-20">
       <div className="text-lg font-bold mb-4 text-center">Getting Started</div>
 
       <p>
